@@ -1,0 +1,39 @@
+package com.ashish.behaviour.strategy;
+
+public class InternetBanking implements Payment{
+	public InternetBanking(String username, String password) {
+		super();
+		this.username = username;
+		this.password = password;
+	}
+
+	private String username;
+	private String password;
+
+	@Override
+	public String toString() {
+		return "InternetBanking [username=" + username + ", password=" + password + "]";
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	@Override
+	public void pay(int amount) {
+		System.out.println( amount+ "rs. amount paied by InternetBanking");
+		
+	}
+}
