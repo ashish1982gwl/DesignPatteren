@@ -1,10 +1,8 @@
 package com.ashish.structual.proxy;
 
-public class SBI implements Bank{
-
-	@Override
-	public String getBankName() {
-		return "SBI Bank";
+public class SBI {
+	public void getBankName() {
+		System.out.println("----SBI object ----");
 		
 	}
 
