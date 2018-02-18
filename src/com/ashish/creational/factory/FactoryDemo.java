@@ -2,7 +2,7 @@ package com.ashish.creational.factory;
 
 //Creational Design Patteren
 
-public class Factory {
+public class FactoryDemo {
 
 	public static void main(String[] args) {
 		OsFactory OsFactory = new OsFactory();

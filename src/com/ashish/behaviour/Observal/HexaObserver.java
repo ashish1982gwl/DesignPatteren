@@ -1,7 +1,7 @@
 package com.ashish.behaviour.Observal;
 
-public class HexaObserver extends Observer{
-
+public class HexaObserver implements Observer{
+	Subject subject;
 	   public HexaObserver(Subject subject){
 	      this.subject = subject;
 	      this.subject.attach(this);
