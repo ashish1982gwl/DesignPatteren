@@ -1,7 +1,7 @@
 package com.ashish.behaviour.Observal;
 
-public class OctalObserver extends Observer{
-
+public class OctalObserver implements Observer{
+	Subject subject;
 	   public OctalObserver(Subject subject){
 	      this.subject = subject;
 	      this.subject.attach(this);
