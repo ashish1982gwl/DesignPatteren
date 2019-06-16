@@ -1,0 +1,4 @@
+State Design patteren implemented, where we can classified object in state 
+example 
+1. Tv is on/Off by remote action
+2. light bulbe is on/off 
